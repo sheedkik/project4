@@ -1,0 +1,28 @@
+.All-Projects {
+    text-align: center;
+  }
+  
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 40px;
+    
+}
+
+.project-box {
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: bisque;
+    height: 5rem;
+    width: 15rem;
+  }
+
+  h2 {
+    font-size: 50px;
+    text-decoration: underline;
+  }

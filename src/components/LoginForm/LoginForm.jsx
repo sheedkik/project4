@@ -16,9 +16,6 @@ export default function LoginForm({ setUser }) {
     async function handleSubmit(evt) {
         evt.preventDefault();
         try {
-        // The promise returned by the signUp service method 
-        // will resolve to the user object included in the
-        // payload of the JSON Web Token (JWT)
         const user = await usersService.login(credentials);
         setUser(user);
         } catch {

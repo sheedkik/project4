@@ -4,6 +4,7 @@ const bcrypt = require('bcrypt')
 
 const SALT_ROUNDS = 6
 
+
 const userSchema = new Schema({
     name: {type: String, required: true},
     email: {
@@ -18,6 +19,11 @@ const userSchema = new Schema({
         trim: true,
         minLength: 3,
         required: true
+    },
+    role : {
+        type: String,
+        enum:['user', 'admin'],
+        default: 'user'
     }
 }, {
     timestamps: true,

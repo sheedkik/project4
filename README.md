@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# HandyBillz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This is a very straightforward application with tons of practicality for many small business owners! This is a very simple, yet effective way for people to be able to track what Projects they have coming up at work and also be able to manage if customers have paid all existing portions of their bill! Unfortunately many small business owners are not able to afford spending tons of money getting amazing invoicing systems, and for them, this is the solution! Owners will be setup with an Admin account and they will have the ability to create more admin accounts if they so require, as Admin accounts are the only ones able to create new "Projects" for items to be billed to in the system. They can get the rest of their team setup as "User" accounts which will be able to create new invoice items and add them to existing projects!
 
-In the project directory, you can run:
 
-### `npm start`
+Heres a quick Preview of HandyBillz!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![alt text](HandyBillz1.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![alt text](HandyBillz2.jpg)
 
-### `npm test`
+![alt text](HandyBillz3.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![alt text](HandyBillz4.jpg)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##  Technologies Used: 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Express.Js
+React
+Node.js
+Mongoose
+JWT
+MongoDB
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##  Getting Started: 
 
-### `npm run eject`
+If this sounds like something that could be of use to you, Try it out and we can get a customized version for your needs up and running in no time!
+[Lets go!](https://sheedkik.github.io/BlackJack-Project/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+###  Next steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ There are still a ton of new feature quickly coming to this application!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Next Features to be implemented:
+ - Create an archive page and system for all completed projects to be taken off the Projects page and sent to the Archives, so you will never lose that information!
+ - Setup alert system for the system to send out notifications to your email if there is an ongoing project with unpaid invoice items 7, 4, and 1 day before project due date.
+ - Create a system for "User" accounts to submit a request for a new project to be created, and the Admin account will be able to approve/deny the new project creation.
+ - Constant visual upgrades to the interface.

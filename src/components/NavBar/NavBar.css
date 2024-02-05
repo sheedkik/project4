@@ -1,0 +1,18 @@
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f0f0f0;
+    height: 50px;
+  }
+  
+  .left,
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .center {
+    display: flex;
+    gap: 20px;
+  }
