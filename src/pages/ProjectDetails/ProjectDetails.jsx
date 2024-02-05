@@ -33,6 +33,9 @@ export default function ProjectDetails(props) {
         }, 0);
 
     const formattedDueDate = new Date(props.project.dueDate).toLocaleDateString('en-US')
+
+    // popup view of project details to show all information of specific project.
+    
     return (
         <div className="project-details">
             <button className='close-button' onClick={props.onClose}>X</button>
@@ -44,6 +47,9 @@ export default function ProjectDetails(props) {
 
             <h4>Invoices</h4>
             <ul>
+
+{/* //iterate through the invoices to see if any are tied to this specific project and display those invoices */}
+
                 {invoices.map(function (invoice) {
                     return (
                         <li key={invoice._id}>

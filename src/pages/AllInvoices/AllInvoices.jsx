@@ -57,7 +57,7 @@ export default function AllInvoices() {
     }
 
 
-
+// search bar logic. Can search by invoice#, item name, or paid/unpaid
     const filteredInvoices = invoices.filter(function (invoice) {
         const searchTerm = searchInvoice.toLocaleLowerCase()
         return (
@@ -85,6 +85,7 @@ export default function AllInvoices() {
       </div>
       {searchInvoice.trim() !== '' && (
         <div className="invoice-containers">
+            {/* iterate over invoices and separate into paid and unpaid */}
           {filteredInvoices.map((invoice) => (
             <div 
             key={invoice._id} 

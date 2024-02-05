@@ -81,6 +81,7 @@ function NewInvoice({ user}) {
 
     function handleInputChange(event) {
         const {name, value, type, checked} = event.target;
+        //if checkbox is checked, set inputValue to true else set to false
         const inputValue = type === 'checkbox' ? checked: value;
         setFormData({ ...formData, [name]: inputValue })
     }

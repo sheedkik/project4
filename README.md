@@ -17,17 +17,17 @@ Heres a quick Preview of HandyBillz!
 
 ##  Technologies Used: 
 
-Express.Js
-React
-Node.js
-Mongoose
-JWT
-MongoDB
+-Express.Js
+-React
+-Node.js
+-Mongoose
+-JWT
+-MongoDB
 
 ##  Getting Started: 
 
 If this sounds like something that could be of use to you, Try it out and we can get a customized version for your needs up and running in no time!
-[Lets go!](https://sheedkik.github.io/BlackJack-Project/)
+[Lets go!](http://localhost:3000/invoices/new)
 
 ###  Next steps:
 

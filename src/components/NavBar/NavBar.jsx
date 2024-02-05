@@ -13,13 +13,13 @@ export default function NavBar({ user, setUser }) {
     return (
         <nav className='NavBar'>
             <div className='left'>
-                <span>Welcome, {user.name}!</span>
+                <span>Welcome to HandyBillz, {user.name}!</span>
             </div>
             <div className="center">
                 <Link to="/invoices"> Invoices </Link>
                 <Link to="/projects"> Projects </Link>
-                {/* &nbsp; | &nbsp; */}
                 <Link to="/invoices/new"> Add Invoice Item </Link>
+                {/* if user role is admin, show Create Project navbar icon */}
                 {user.role === 'admin' && <Link to="/projects/new"> Create Project </Link>}
             </div>
             <div className="right">
